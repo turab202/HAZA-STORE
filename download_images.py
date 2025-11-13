@@ -4,14 +4,16 @@ import os
 # Create assets directory if it doesn't exist
 os.makedirs('assets/images', exist_ok=True)
 
-# Image URLs from Unsplash
+# Updated image URLs with working links
 image_urls = {
     'headphones.jpg': 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop',
     'watch.jpg': 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop',
     'tshirt.jpg': 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=300&fit=crop',
-    'fitness_tracker.jpg': 'https://images.unsplash.com/photo-1557438159-51eec7a6-9f6e-4f63-bc26-126b769adade?w=400&h=300&fit=crop',
+    'fitness_tracker.jpg': 'https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&h=300&fit=crop',  # Fixed URL
     'mug.jpg': 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&h=300&fit=crop',
-    'backpack.jpg': 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop'
+    'backpack.jpg': 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop',
+    'earbuds.jpg': 'https://images.unsplash.com/photo-1590658165737-15a047b8b5e9?w=400&h=300&fit=crop',
+    'sunglasses.jpg': 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=300&fit=crop',
 }
 
 for filename, url in image_urls.items():
